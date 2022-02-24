@@ -1,4 +1,4 @@
-# Tiny Genetic Programming in Golang (based on [1])
+# Tiny Genetic Programming in Golang[^1]
 
 A minimalistic program implementing Koza-style (tree-based) genetic programming to solve a symbolic regression problem. 
 
@@ -14,6 +14,4 @@ It is a basic (and fully functional) version, which produces textual output of t
 | Paremeters | POP_SIZE (population size), MIN_DEPTH (minimal initial random tree depth), MAX_DEPTH (maximal initial random tree depth), GENERATIONS (maximal number of generations), TOURNAMENT_SIZE (size of tournament for tournament selection), XO_RATE (crossover rate), PROB_MUTATION (per-node mutation probability) |
 | Termination | Maximal number of generations reached or an individual with fitness = 1.0 found |
 
-## References
-<a id="1">[1]</a> 
-[Tiny Genetic Programming in Python](https://github.com/moshesipper/tiny_gp)
+[^1]: [Tiny Genetic Programming in Python](https://github.com/moshesipper/tiny_gp)
